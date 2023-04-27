@@ -60,7 +60,7 @@ def word_check():
         try_number += 1
 
         if list(user_try) == list(daily_word):
-            # messagebox.showinfo(title="Ariel's Wordle", message=f'Good job! Your guess {user_try} is correct')
+            messagebox.showinfo(title="Ariel's Wordle", message=f'Good job! Your guess {user_try} is correct')
             ariel = tk.PhotoImage(file='/Users/arielshneyour/Desktop/פרויקט/IMG_9009.png')
             pop = tk.Toplevel(root)
             pop.title("Ariel's Wordle")
